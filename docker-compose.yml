@@ -1,0 +1,12 @@
+services:
+  #Aixecarà un servidor APACHE amb php i el driver de mysql (que en aquest cas no farem servir)
+  #Per posar-lo en marxa
+  # docker compose up
+  # I aleshores des de http://localhost:8080 ja podrem veure la web
+  # d'exemple de formulari
+  web:
+    image: ebota/daw:apache_php82_mysql
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web/:/var/www/html/

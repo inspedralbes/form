@@ -1,2 +1,8 @@
-# form
-formulari bàsic per mostrar les dades rebudes en una petició
+# Form
+Formulari bàsic per mostrar les dades rebudes en una petició, inclou:
+ * index.html: Fitxer html amb el formulari correctament formatat
+ * action.php: Fitxer php que mostra tots els paràmetres rebuts
+ * action.txt: Copia d'action.php, però en format txt per que quan està desplegat sigui fàcil veure el codi php
+ * docker-compose.yml Per poder aixecar-ho tot ràpidament i fer proves en local
+
+Típicament està desplegat a: https://github.com/inspedralbes/form

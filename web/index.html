@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estils.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Exemple de formulari bàsic</h1>
+    <p>Les dades s'envien a <a href="./action.php">./action.php</a></p>
+    <p>El formulari <code>action.phph</code> mostrarà tots els paràmetres GET i POST que rebi</p>
+    <form method="POST" action="./action.php">
+        <fieldset>
+            <legend>Exemple de form amb mètode POST</legend>
+
+            <!-- 
+               El label "for" es vincula amb l'"id" de l'input
+               I el name de l'input és la clau del que s'enviarà al servidor
+               En el mètode get es veu molt clar pq. apareixen a l'url
+            -->
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="nom"><br>
+
+            <label for="edat">Edat:</label>
+            <input type="number" id="edat" name="edat"><br>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <form method="GET" action="./action.php">
+        <fieldset>
+            <legend>Exemple de form amb mètode GET</legend>
+            <label for="name_get">Nom:</label>
+            <input type="text" id="name_get" name="nom"><br>
+
+            <label for="edat_get">Edat:</label>
+            <input type="number" id="edat_get" name="edat"><br>
+
+            <input type="submit" value="Enviar">
+            <cite>Com que ho envia amb GET els paràmetres s'afeigran a la URL</cite>
+        </fieldset>
+    </form>
+
+
+    <hr>
+    <p>
+        El fitxer action.php és <a href="./action.txt">el següent</a>
+    </p>
+    <cite>Podeu trobar una còpia d'aquest formulari a <a
+            href="https://daw.inspedralbes.cat/form/action.php">https://daw.inspedralbes.cat/form/action.php</a> </cite>
+
+</body>
+
+</html>

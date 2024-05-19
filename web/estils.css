@@ -1,0 +1,13 @@
+body {
+    margin: 20px;
+}
+
+input{
+    margin: 10px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
