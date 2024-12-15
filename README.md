@@ -5,4 +5,5 @@ Formulari bàsic per mostrar les dades rebudes en una petició, inclou:
  * action.txt: Copia d'action.php, però en format txt per que quan està desplegat sigui fàcil veure el codi php
  * docker-compose.yml Per poder aixecar-ho tot ràpidament i fer proves en local
 
-Típicament està desplegat a: https://github.com/inspedralbes/form
+Es pot trobar el codi https://github.com/inspedralbes/form
+Típicament està desplegat a: http://daw.inspedralbes.cat/form 
